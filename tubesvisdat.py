@@ -25,11 +25,11 @@ country_list = ['Germany', 'France', 'Finland', 'Italy', 'Ireland', 'Russia']
 
 df = pd.read_csv("./data/full_grouped.csv", parse_dates=['Date'])
 data = df[df.Country.isin(country_list)] 
-data.head()
+# data.head()
 
 # output to file
-output_file('covid19.html',
-             title = 'Visualisasi Data Interaktif Statistik COVID-19')
+# output_file('covid19.html',
+#             title = 'Visualisasi Data Interaktif Statistik COVID-19')
 
 # Create and configure the figure
 con_fig = figure(x_axis_type='datetime',
