@@ -197,7 +197,7 @@ tabs = Tabs(tabs=[con_panel, dea_panel, rec_panel])
 
 # Visualize
 layout = row(sup_title, column(tabs, date_range_slider))
-#curdoc().add_root(layout)
+curdoc().add_root(layout)
 
 # save to file
-show(layout)
+# show(layout)
