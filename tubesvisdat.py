@@ -184,7 +184,7 @@ date_range_slider.js_link("value", rec_fig.x_range, "end", attr_selector=1)
 # add a tittle for the entire visualization using Div
 html = """<h3>Visualisasi Data Interaktif Statistik COVID-19</h3>
 Kelompok: 9 <br>
-Kelas: IF-43-GAB03 <br>"""
+Kelas: IF-42-GAB02 <br>"""
 sup_title = Div(text=html)
 
 # Create three panels
