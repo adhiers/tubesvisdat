@@ -83,7 +83,7 @@ dea_tooltips = [
 
 rec_tooltips = [
             ('Country', '@Country'),
-            ('Recovered', '@recovered')
+            ('Recovered', '@Recovered')
             ]
 
 # format hover glyph
